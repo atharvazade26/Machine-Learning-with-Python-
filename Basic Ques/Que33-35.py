@@ -31,12 +31,3 @@ d = d1 | d2 #method 1
 #    merged.setdefault(k, []).append(v) 
 
 print(f"dict 1: {d1}, dict 2: {d2}\nmerged dict: {d}")
-
-#36 Check whether a key exists.
-student={'name':'Rahul','age':20}
-key='age'
- 
-if key in student.keys():
-    print(f"key {key} is present in dictionary")
-else:
-    print(f"key {key} not found in dictionary")
